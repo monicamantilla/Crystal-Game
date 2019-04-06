@@ -1,0 +1,74 @@
+body{
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-image: url(/assets/images/pink_rice.png);
+    font-family: 'Playfair Display', serif;
+    line-height: 34px;
+    font-size: 18px;
+    color: #777777;
+}
+
+#title {
+    background-color: pink;
+    color: white;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 25px;
+    margin: 50px;
+}
+
+#instructions{
+    background-color:lightblue;
+    width: 500px;
+    height: 500 px;
+    padding: 25px;
+    margin-bottom: 25px;
+    margin: 50px;
+}
+
+#numberToGuess{
+    background-color: plum;
+    width: 200px;
+    height: 100px;
+    color: grey;
+    float: left;
+    margin: 50px;
+}
+ #wlContainer{
+    background-color: lightcoral;
+    width: 200px;
+    height: 100px;
+    color: grey;
+    float: right;
+    margin: 50px;
+ }
+
+ img {
+    width: 100px;
+	height: 70px;
+    float: left;
+    margin: 50px;
+}
+
+#totalScore{
+    background-color: plum;
+    width: 300px;
+    height: 100px;
+    color: grey;
+    float: left;
+    margin: 50px;
+    text-align: center;
+    padding: 25px;
+    clear: both;
+}
+
+#score{
+    background-color: blueviolet;
+    width: 300px;
+    height: 100px;
+    color: grey;
+    margin: 50px;
+    text-align: center;
+    padding: 25px;
+    float: left;
+}
