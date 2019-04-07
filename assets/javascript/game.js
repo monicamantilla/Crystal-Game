@@ -8,10 +8,10 @@ var randomNumberValue,
     myWins = 0,
     myLosses = 0;
 
-var totalScore = document.getElementById("totalScore");
-var randomNumber = document.getElementById("randomNumber");
-var wins = document.getElementById("wins");
-var losses = document.getElementById("losses");
+var totalScore = document.getElementById('totalScore');
+var randomNumber = document.getElementById('randomNumber');
+var wins = document.getElementById('wins');
+var losses = document.getElementById('losses');
 
 // var totalScore = $("#totalScore");
 // var randomNumber = $("#randomNumber");
@@ -63,15 +63,16 @@ function IncScore(fruit) {
         totalValue += strawberryValue;
     }
     if (totalValue == randomNumberValue) {
-        mywins++;
-        wins.innerText == mywins;
+        myWins++;
+        wins.innerText = myWins;
     }
     else if (totalValue > randomNumberValue) {
         myLosses++;
-        losses.innerText == myLosses;
+        losses.innerText = myLosses;
+        reset();
     }
     else {
-        totalScore == totalValue
+        totalScore.innerText = totalValue;
     }
 
 }

@@ -5,34 +5,35 @@
 
     <title>Crystal Game</title>
     <link href="./assets/css/style.css" rel= "stylesheet" type= "text/css">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript"></script>
+  
 </head>
 <body>
 
 <div id= title> Crystal Game </div>   
 
 <div id= instructions> 
-    You will be given a random number at the start of the game.
+    <p>Instructions</p>
+<p> You will be given a random number at the start of the game.
     There are four crystals below. By clicking on a crystal you will add a specific
     amount of points to your total score. <br>
     You win the game by matching your total score to random number, you lose the game if 
     your total score goes above the random number. <br>
     The value of each crystal is hidden from you until you click on it. <br>
     Each time when the game starts the game will change the value of each crystal.<br>
+</p>
 </div>
 
 <div>
-       
-           <p><span id= "randomNumber"></span></p>
-     
-            <div id= WL>
-                <p> Wins: <span id="wins">0</span></p>
-                <p> Losses: <span id="losses">0</span></p>
+            <div id= random>
+           <p> <span id= 'randomNumber'></span></p>
+            </div>
+            <div id = winslosses>
+                <p> Wins: <span id='wins'>0</span></p>
+                <p> Losses: <span id='losses'>0</span></p>
             </div>     
 </div>
 
-<div class="fruit">
+<div>
         
           <button id= "banana"  onclick="IncScore('yellow')"></button>
     
@@ -44,7 +45,7 @@
              
 </div>
 
-<div id= "totalScore">Your Total Score is: </div>
+<div id= 'totalScore'>Your Total Score is: </div>
 
 <div id= "score"></div>
 
