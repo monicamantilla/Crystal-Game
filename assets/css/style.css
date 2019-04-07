@@ -1,11 +1,7 @@
-body{
+/* body{
     background-attachment: scroll;
     background-repeat: repeat;
     background-image: url(/assets/images/pink_rice.png);
-    font-family: 'Playfair Display', serif;
-    line-height: 34px;
-    font-size: 18px;
-    color: #777777;
 }
 
 #title {
@@ -26,24 +22,31 @@ body{
     margin: 50px;
 }
 
-#numberToGuess{
-    background-color: plum;
-    width: 200px;
-    height: 100px;
-    color: grey;
-    float: left;
-    margin: 50px;
-}
- #wlContainer{
-    background-color: lightcoral;
-    width: 200px;
-    height: 100px;
-    color: grey;
-    float: right;
-    margin: 50px;
- }
+#randomNumber{
 
- img {
+    background-color:green;
+    width: 300px;
+    height: 100px;
+    color: grey;
+    margin: 50px;
+    text-align: center;
+    padding: 25px;
+    float: left;
+}
+
+#WL{
+    background-color: pink;
+    width: 300px;
+    height: 100px;
+    color: grey;
+    margin: 50px;
+    text-align: center;
+    padding: 25px;
+    float: left;
+   
+}
+
+img {
     width: 100px;
 	height: 70px;
     float: left;
@@ -72,3 +75,5 @@ body{
     padding: 25px;
     float: left;
 }
+
+ */

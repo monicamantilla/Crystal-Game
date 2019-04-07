@@ -6,7 +6,6 @@
     <title>Crystal Game</title>
     <link href="./assets/css/style.css" rel= "stylesheet" type= "text/css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
     <script type="text/javascript"></script>
 </head>
 <body>
@@ -23,34 +22,33 @@
     Each time when the game starts the game will change the value of each crystal.<br>
 </div>
 
-<div class= "row">
-    
-            <div id= numberToGuess></div>
-        
-            <div id= wlContainer>
-                <span id="wins">Wins: 0</span>
-                <span id="losses">Losses: 0</span>
+<div>
+       
+           <p><span id= "randomNumber"></span></p>
+     
+            <div id= WL>
+                <p> Wins: <span id="wins">0</span></p>
+                <p> Losses: <span id="losses">0</span></p>
             </div>     
 </div>
 
 <div class="fruit">
-        <div class="banana">
-          <img src="./assets/images/banana.png" alt="Bananas">
-        </div>
-        <div class="grape">
-          <img src="./assets/images/grape.png" alt="Grapes">
-        </div>
-        <div class="mango">
-          <img src="./assets/images/mango.png" alt="Mango">
-        </div>
-        <div class="strawberry">
-          <img src="./assets/images/strawberry-icon.png" alt="Strawberry">
-              </div>
+        
+          <button id= "banana"  onclick="IncScore('yellow')"></button>
+    
+          <button id= "grape"  onclick="IncScore('green')"></button> 
+        
+          <button id= "mango"  onclick="IncScore('orange')"></button>
+   
+          <button id= "strawberry" onclick="IncScore('red')"></button>    
+             
 </div>
 
 <div id= "totalScore">Your Total Score is: </div>
 
 <div id= "score"></div>
-      
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src= "assets/javascript/game.js"></script>    
 </body>
 </html>
