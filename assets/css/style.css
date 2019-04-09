@@ -1,7 +1,6 @@
-/* html{
-    background-attachment: scroll;
-    background-repeat: repeat;
-    background-image: url("/assets/images/strawberry-icon.png");
+body{
+    background-image: url("/assets/images/pink_rice.png");
+   
 }
 
 #title {
@@ -43,35 +42,31 @@
  
 #winslosses{
     background-color: plum;
+    color: grey;
+    font-size: 20px;
     width: 300px;
     height: 100px;
-    color: grey;
-    margin: 50px;
+    margin: 25px;
+    padding: 10px;
     text-align: center;
-    padding: 25px;
-    float: left;
-   
 }
 
+#buttons{
+    background-color: palevioletred;
+    width: 100px;
+    height: 50px;
+    margin: 25px;
+    padding: 10px;
 
-#totalScore{
-    background-color: peachpuff;
+}
+
+ #totScore{
+    background-color: papayawhip;
     color: grey;
-    font-size: 16px;
-    width: 500px;
-    height: 200px;
-    margin: 100px;
-    padding: 30px;
-    float: left;
-}
-
-#score{
-    background-color: blueviolet;
+    font-size: 20px;
     width: 300px;
     height: 100px;
-    color: grey;
-    margin: 50px;
+    margin: 25px;
+    padding: 10px;
     text-align: center;
-    padding: 25px;
-    float: left;
-}   */
+ }
